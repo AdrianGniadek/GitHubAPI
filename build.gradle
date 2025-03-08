@@ -20,8 +20,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	implementation 'io.smallrye.reactive:mutiny:2.4.4'
-	implementation 'io.smallrye.reactive:mutiny-reactor:2.4.4'
+
+	implementation 'io.smallrye.reactive:mutiny:2.3.0'
+	implementation 'io.smallrye.reactive:mutiny-reactor:2.3.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
