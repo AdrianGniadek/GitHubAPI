@@ -24,6 +24,9 @@ dependencies {
 	implementation 'io.smallrye.reactive:mutiny:2.3.0'
 	implementation 'io.smallrye.reactive:mutiny-reactor:2.3.0'
 
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+	testImplementation 'com.squareup.okhttp3:mockwebserver:4.12.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
